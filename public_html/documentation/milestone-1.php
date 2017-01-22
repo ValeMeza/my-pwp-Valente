@@ -4,7 +4,7 @@
     <meta charset="utf-8"
 </head>
 <title>User Example</title>
-<header><h1>Potential Employer</h1> Persona</header>
+<header><h1>Potential Employer</h1></header>
     <body>
     <main><h2>Example Employer</h2>
         <ul>
