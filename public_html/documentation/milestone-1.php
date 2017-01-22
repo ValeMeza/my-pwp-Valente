@@ -13,7 +13,7 @@
             <li>Occupation:Recruiters, HR employee's</li>
             <li>Technology:Average desktop running windows 7, 10, Mac possibly cell phone android,apple. </li>
             <li>Needs:Looking to hire a full stack developer, with proper skills and motivation for the field.</li>
-            <li>Goals for user base: Will be abel to arrive on my personal website and see examples of my work, how to reach me, get to my github to check recent work and see a about me. Will use easy to use links and reduce clutter while keeping attention. Keep in mind for mobile use.  </li>
+            <li>Goals for user base: Will be abel to arrive on my personal website and see examples of my work, how to reach me, get to my github to check recent work and see a about me. Will use easy to use links and reduce clutter while keeping attention. Keep in mind for mobile use and stay away from making the entire site links to other sites add work on page itself keeping clutter away from the first displayed page.  </li>
         </ul>
         <h2>Use Case:</h2>
         John Smith has just arrived to work and has been searching linkin.com  all day searching for a proficient full stack employee, after arriving at my site he is lead to a tour of my most recent projects; capstone, personal website itself, and any other repositories I have made or contributed to. Once he has explored my work, explored my github link, and have read my bio, they decide I am a right fit and click my link to contact me.
