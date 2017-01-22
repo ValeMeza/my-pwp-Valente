@@ -13,20 +13,20 @@
             <li>Occupation:Recruiters, HR employee's</li>
             <li>Technology:Average desktop running windows 7, 10, Mac possibly cell phone android,apple. </li>
             <li>Needs:Looking to hire a full stack developer, with proper skills and motivation for the field.</li>
-            <li>Will be abel to arrive on my personal website and see examples of my work, how to reach me, get to my github to check recent work and see a about me.  </li>
+            <li>Goals for user base: Will be abel to arrive on my personal website and see examples of my work, how to reach me, get to my github to check recent work and see a about me. Will use easy to use links and reduce clutter while keeping attention. Keep in mind for mobile use.  </li>
         </ul>
         <h2>Use Case:</h2>
         John Smith has just arrived to work and has been searching linkin.com  all day searching for a proficient full stack employee, after arriving at my site he is lead to a tour of my most recent projects; capstone, personal website itself, and any other repositories I have made or contributed to. Once he has explored my work, explored my github link, and have read my bio, they decide I am a right fit and click my link to contact me.
 
         <h2>Example Flow</h2>
         <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Employer searching linkin, arrives at my profile.</li>
+            <li>My profile contains my resume and a link to my personal website.Employer clicks my link to my site</li>
+            <li>Information is sent and received for the url</li>
+            <li>Employer reads my bio on the front page and scrolls down seeing my capstone contribution, links to other repositories, and my Github information/link.</li>
+            <li>Scrolling down the site they click the contact me link and it directs them to complete an email to contact me.</li>
+            <li>Send is clicked, a confirmation is displayed.</li>
+            <li>Email is sent and I receive it.</li>
         </ol>
 
     </main>
