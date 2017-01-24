@@ -1,2 +1,25 @@
 # my-pwp-Valente
 My personal website
+
+## Milestone 1 feedback
+Your directory structure is built to spec, but there are some issues with your documentation and code for this Milestone.
+ 
+1. The Purpose, Audience, and Goal sections are missing. Unfortunately I cannot give this Milestone a passing grade without these. Finish up the documentation by tomorrow end-of-day (1/25/17 17:00) and I'll bump your grade to Tier II.
+ 
+2. The Persona reads too general - this John/Jane Doe could be about almost anyone. The Persona needs to be much more specific if you plan to build a site for a specific purpose. The Technology section definitley could be nailed down. You may think of modeling your Persona after an IT Recruiter or a Senior Dev/Tech Lead that will be evaluating job candidates. Or perhaps professional peers in the tech community that you may be networking with, etc. (Keep in mind that IT Recruiters typically target mid - senior level, and rarely spend all day on LinkedIn searching for candidates cold.) As it is - this Persona is too general and does not give enough information to design and build a targeted website around.
+
+It's cool you included an Interaction Flow as part of your Use Case, but the majority of these steps don't involve your PWP at all. The reason an Interaction Flow was not required in this Milestone is because PWP is static and one-page only - so there is no interactive system playing an "actor" here.
+
+ Please take a look at the [Milestone 1 Documentation](https://bootcamp-coders.cnm.edu/projects/personal/milestone-one/) and [Sample Milestones](https://bootcamp-coders.cnm.edu/projects/personal/example/) for guidance.
+
+ Unfortunatley, because the Purpose, Audience and Goal are missing, I can only sign off on this Milestone at [Tier I](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Resubmit with the missing documentation and I'll bump it to Tier II.
+
+You are clear to begin work on [Milestone 2&alpha;](https://bootcamp-coders.cnm.edu/projects/personal/milestone-two/). However  I strongly encourage you to rethink the Purpose/Audience/Goal(s) and Persona. 
+
+Slack me (@rm-rf) if you have any questions. There were also issues with your code. See Edits &amp; Suggestion below.
+
+### Edits &amp; Suggestions
+- add `/vendor` to your .gitignore, on line 3
+- line 4 in milestone-1.php is missing the closing `>` tag. Be careful - stuff like this can screw up HTML.
+- Watch your HTML indentation. It's way off.
+- Your Use Case paragraph should be inside a `<p>` tag.
