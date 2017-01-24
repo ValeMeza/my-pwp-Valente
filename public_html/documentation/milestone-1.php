@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="eng">
 <head>
-    <meta charset="utf-8"
+    <meta charset="utf-8">
 </head>
 <title>User Example</title>
 <header><h1>Potential Employer</h1></header>
