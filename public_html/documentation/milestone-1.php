@@ -21,20 +21,6 @@
             <p>Goals: Junes' main goal at this point is to hire someone that does'nt need hand holding and can learn to keep up with the pace. She would prefer to diversify to hopefully bring in more intuitive ideas, but still needs someone with basic understanding of HTML, Java, PHP,CSS, and mySQL</p>
             <h2>Use Case:</h2>
             <p>After a long day of bug fixes. She spends the afternoon posting retweets and plans to attend a code for abq get together. While she does a bit of networking, we meet and I give her my URL to my website. After checking my website and checking my gitHub and linkid she decides to give me an opportunity to to fix bugs. After a month of learning there system im able to keep up with there normal day to day projects and move from junior to intermediate programmer.</p>
-
-            <h2>Example Flow</h2>
-            <ol>
-                <li>June gets home and types my website in.</li>
-                <li>Information is sent and received for the url</li>
-                <li>June reads my bio on the front page and scrolls down seeing my capstone contribution, links to other
-                    repositories, and my Github information/link.
-                </li>
-                <li>Scrolling down the site they click the contact me link and it directs them to complete an email to contact
-                    me.
-                </li>
-                <li>Send is clicked, a confirmation is displayed.</li>
-                <li>Email is sent and I receive it.</li>
-            </ol>
         </main>
     </body>
 </html>
