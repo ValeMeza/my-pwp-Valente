@@ -23,3 +23,10 @@ Slack me (@rm-rf) if you have any questions. There were also issues with your co
 - line 4 in milestone-1.php is missing the closing `>` tag. Be careful - stuff like this can screw up HTML.
 - Watch your HTML indentation. It's way off.
 - Your Use Case paragraph should be inside a `<p>` tag.
+
+### Milestone 1 Feedback - Updated.
+Nice work - this is much improved. I'm looking forward to seeing your ideas about how you plan to present your portfolio items and highlight your tech skills in Milestone 2a. I can see this portfolio site being designed with small to medium sized tech and development firms, freelance clients, and professional peers in mind.
+
+There is one lingering code error: Change line 3 in the **.gitignore** to be `/vendor` (Remove the leading ".")
+
+Your Milestone 1 passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin work on [Milestone 2&alpha;](https://bootcamp-coders.cnm.edu/projects/personal/milestone-two/).
