@@ -11,8 +11,8 @@
         <main>
             <ul>
                 <li>Purpose: The purpose of my personal website is to display any of my most recent work and to give a quick and easy access of contact.</li>
-                <li>Audience: This site will be devolped with a professional audience in mind, to better create network opportunities within the tech industry.</li>
-                <li>Goal: My primary goal is to provied easy access for contact and to focus on more acomplished work for potential employers to view that other sites wont allow me to showcase.</li>
+                <li>Audience: This site will be developed with a professional audience in mind, to better create network opportunities within the tech industry.</li>
+                <li>Goal: My primary goal is to provide easy access for contact and to focus on more accomplished work for potential employers to view that other sites wont allow me to showcase.</li>
             </ul>
             <h2>Example Employer</h2>
             <ul>

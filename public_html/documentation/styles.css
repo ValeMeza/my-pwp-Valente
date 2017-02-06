@@ -1,0 +1,16 @@
+h1 {
+    font-family: "Times New Roman", sans-serif;
+    color: blue;
+}
+body {
+    background-color: transparent;
+}
+title {
+    font-family: "Times New Roman", sans-serif;
+    color:lightcyan;
+    font-size: inherit;
+}
+p {
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+}
