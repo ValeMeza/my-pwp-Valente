@@ -30,3 +30,15 @@ Nice work - this is much improved. I'm looking forward to seeing your ideas abou
 There is one lingering code error: Change line 3 in the **.gitignore** to be `/vendor` (Remove the leading ".")
 
 Your Milestone 1 passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin work on [Milestone 2&alpha;](https://bootcamp-coders.cnm.edu/projects/personal/milestone-two/).
+
+## Milestone 2a Feedback 
+Your HTML Structure is perfect. Your directory structure, on the other hand, needs a little work. I'll mention these in the "Edits" section of the feedback below.
+
+Good job on your content strategy! I really like the plan you have for your site. All the sections of your site are very well thought out. the wireframes are also very specific and should serve as an excellent blueprint when you are building the actual site. I only have a few small concerns about the actual wireframes. Do you plan on having the about me on another page, and will your resume be on that page? And do you want to use a third party plugin to display the portfolio section? (I would recommend swipebox or flickity. 
+
+# Edits
+- styles should be renamed CSS and moved to the root of the project
+- images directory should be renamed img and moved to the root of the project. 
+
+# grade tier IV
+
