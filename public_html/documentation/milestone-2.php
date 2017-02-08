@@ -2,7 +2,7 @@
 <html lang="eng">
     <head>
         <meta charset="utf-8">
-        <link href="styles.css" rel="stylesheet" type="text/css">
+        <link href="styles/styles.css" rel="stylesheet" type="text/css">
         <title>Content Strategy</title>
     </head>
     <body>
