@@ -2,7 +2,7 @@
 <html lang="eng">
     <head>
         <meta charset="utf-8">
-        <link href="styles/styles.css" rel="stylesheet" type="text/css">
+        <link href="../../css/styles.css" rel="stylesheet" type="text/css">
         <title>Content Strategy</title>
     </head>
     <body>
@@ -38,7 +38,7 @@
             </li>
         </ul>
         <p>My wire frame was created using <a href="https://www.draw.io/" class="website">Draw.io</a></p>
-        <img src="images/wireframe.png">
+        <img src="../../images/wireframe.png">
     </main>
     </body>
 </html>
