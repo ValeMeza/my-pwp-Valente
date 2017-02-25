@@ -23,6 +23,11 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- Swipe box Javascript -->
+    <script src="lib/jquery-2.0.3.js"></script>
+    <script src="src/js/jquery.swipebox.js"></script>
+    <!-- Swipe box CSS -->
+    <link rel="stylesheet" href="src/css/swipebox.css">
 </head>
 
 <body>
@@ -67,7 +72,9 @@
 
 </div>
 </div><!-- /.container -->
-
+<a href="#portfolio"><a href="images/MyPersonalImage(3).JPG" class="swipebox" title="My Caption">
+    <img src="images/1kayxg.jpg" alt="image">
+    </a></a>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
