@@ -110,14 +110,14 @@
                 </div>
                 <div class="col-md-3">
                     <div class="content-box">
-                        <h3>Mobile First</h3>
-                        <p>Check this page out on your mobile device! Bootstrap powers the responsive behavior by default when build websites the Bootstrap way. :D</p>
+                        <h3>Why wont the color change!!!</h3>
+                        <p></p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="content-box">
-                        <h3>View Source</h3>
-                        <p>This is a lotta Bootstrap, I know. View the source code, it's well commented. Take a look in devtools. Try stuff. Break things. Have fun.</p>
+                        <h3>Another Random Image</h3>
+                        <p><a href="images/cyberpunk.gif"</p>
                     </div>
                 </div>
             </div>
