@@ -1,10 +1,42 @@
+header {
+    margin-top: 20px;
+}
 body {
     padding-top: 50px;
 }
-.starter-template {
-    padding: 40px 15px;
-    text-align: center;
+
+footer {
+    background-color: black;
+    color: #cccccc;
+    font-style: italic;
+    margin-top: 40px;
+    padding: 60px 0;
 }
+
 .container {
     max-width: 100%;
+}
+.content-box {
+    background-color: #cccccc;
+    border-radius: 6px;
+    padding: 10px 15px 15px;
+    margin-bottom: 20px;
+}
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.sfooter-content {
+    flex: 1 0 auto;
 }
