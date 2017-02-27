@@ -86,8 +86,8 @@
                 </div>
                 <div class="col-md-6">
                     <div class="content-box">
-                        <h3></h3>
-                        <p>               its fine, everythings is fine. theres an infinite number of realities morty, and in a few dozens of those i got lucky and turned everything back to normal. I'd like to order one large sofa chair with extra chair please. high chair, no no no recliner... and wheelchair on half. I'm Scary Terry!! You can run but you can't hide, bitch! Holy crap, Morty, run! Run for your life, Morty, run! I-I've never seen that thing before in my life, Morty, I don't even know what the hell it is! We-we gotta get out of here, Morty, it's gonna kill us! We're gonna die, Morty! We're gonna die!.</p>
+                        <h3>The Beauty of Web Development.</h3>
+                        <p>its fine, everythings is fine. theres an infinite number of realities morty, and in a few dozens of those i got lucky and turned everything back to normal. I'd like to order one large sofa chair with extra chair please. high chair, no no no recliner... and wheelchair on half. I'm Scary Terry!! You can run but you can't hide, bitch! Holy crap, Morty, run! Run for your life, Morty, run! I-I've never seen that thing before in my life, Morty, I don't even know what the hell it is! We-we gotta get out of here, Morty, it's gonna kill us! We're gonna die, Morty! We're gonna die!.</p>
                     </div>
                 </div>
             </div>
@@ -96,28 +96,27 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="content-box">
-                        <h3>Jumbotron</h3>
-                        <p>               I'm sorry, Morty. It's a bummer. In reality you're as dumb as they come. Don't even trip about your pants, dawg. We got an extra pair right here. You're growing up fast, Morty. You're going into a great big thorn straight into my ass. I'm the Devil, what should I do when I fail? Give myself an ice cream? Aw, geez. Puh rum pum pow! Aw, c'mon Rick. That doesn't seem so bad. The fucking amish bitch shot me!</p>
+                        <h3>Add link to GitHub</h3>
+                        <p>I'm sorry, Morty. It's a bummer. In reality you're as dumb as they come. Don't even trip about your pants, dawg. We got an extra pair right here. You're growing up fast, Morty. You're going into a great big thorn straight into my ass. I'm the Devil, what should I do when I fail? Give myself an ice cream? Aw, geez. Puh rum pum pow! Aw, c'mon Rick. That doesn't seem so bad. The fucking amish bitch shot me!</p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="content-box">
-                        <h3>Box Styling</h3>
+                        <h3>Swipebox</h3>
                         <p><a href="images/MyPersonalImage(3).JPG" class="swipebox" title="My Caption">
                                 <img src="images/1kayxg.jpg" alt="image">
-                            </a>!</p>
+                            </a></p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="content-box">
-                        <h3>Why wont the color change!!!</h3>
                         <p></p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="content-box">
                         <h3>Another Random Image</h3>
-                        <p><a href="images/cyberpunk.gif"</p>
+                        <p><iframe src="//giphy.com/embed/HuXyLzDZpwfra?html5=true" width="270" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/HuXyLzDZpwfra">via GIPHY</a></p></p>
                     </div>
                 </div>
             </div>
