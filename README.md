@@ -36,9 +36,11 @@ Your HTML Structure is perfect. Your directory structure, on the other hand, nee
 
 Good job on your content strategy! I really like the plan you have for your site. All the sections of your site are very well thought out. the wireframes are also very specific and should serve as an excellent blueprint when you are building the actual site. I only have a few small concerns about the actual wireframes. Do you plan on having the about me on another page, and will your resume be on that page? And do you want to use a third party plugin to display the portfolio section? (I would recommend swipebox or flickity. 
 
-# Edits
+### Edits
 - styles should be renamed CSS and moved to the root of the project
 - images directory should be renamed img and moved to the root of the project. 
 
-# grade tier IV
+### grade tier IV
 
+## Milestone 2&beta; Feedback
+You're about 30% done. You can get to 85-90% with a solid plan and 3-4 very focused hours. Detailed notes on our meeting left via Slack. Your Milestone 2b passes at Tier III.
