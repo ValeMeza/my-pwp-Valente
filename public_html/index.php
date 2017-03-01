@@ -43,7 +43,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Valente Meza.</a>
+                    <a class="navbar-brand" href="#">Vale Por ABQ.</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -85,29 +85,24 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="jumbotron">
-                        <h1>Welcome!</h1>
-                        <p>My Name is Valente.<br> Reticulating Splines....</p>
+                        <h1>Welcome</h1>
+                        <p>My Name is Valente.<br> .
+                            <div class="img-responsive"><a> <img src="images/MyPersonalImage(3).JPG" class="img-responsive">After becoming a Web Developer I seek to change lives with my skills. I want to teach, learn and build my way to helping Albuquerque become a bigger tech hub for the world</a></div> I am a Web Developer in the greater Albuquerque area
                     </div>
                 </div>
             </div>
 
-            <!--begin 2 column row-->
+            <!--begin display column row-->
             <div class="row">
-                <div class="col-md-6">
-                    <div class="content-box">
-                        <h3>Mission</h3>
-                        <p>I'd like to order one large phone with extra phones please. cell phone, no no no rotary... and payphone on half. That guy is the Red Grin Grumbold of pretending he knows what's going on. Oh you agree huh? You like that Red Grin Grumbold reference? Well guess what, I made him up. You really are your father's children. Think for yourselves, don't be sheep. Slow down! Principal Vagina here, don't let the name fool you; I'm very much in charge. Reminding you that tonight is our annual flu season dance. I don't know how many times I have to say this, but if you have the flu, stay home. The flu season dance is about awareness, not celebration. You don't bring dead babies to Passover.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="content-box">
                         <h3>The Beauty of Web Development.</h3>
-                        <p>its fine, everythings is fine. theres an infinite number of realities morty, and in a few dozens of those i got lucky and turned everything back to normal. I'd like to order one large sofa chair with extra chair please. high chair, no no no recliner... and wheelchair on half. I'm Scary Terry!! You can run but you can't hide, bitch! Holy crap, Morty, run! Run for your life, Morty, run! I-I've never seen that thing before in my life, Morty, I don't even know what the hell it is! We-we gotta get out of here, Morty, it's gonna kill us! We're gonna die, Morty! We're gonna die!.</p>
+                        <p> <p>After becoming a Web Developer I seek to change lives with my skills. I want to teach, learn and build my way to helping Albuquerque become a bigger tech hub for the world.</p>
                     </div>
                 </div>
             </div>
 
-            <!--begin 4 column row-->
+            <!--begin contact column row-->
             <div class="row">
                 <div class="col-md-2">
                     <div class="content-box">
@@ -116,17 +111,17 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <div class="content-box">
-                        <h3>Swipebox</h3>
-                        <p><a href="images/MyPersonalImage(3).JPG" class="swipebox" title="My Caption">
-                                <img src="images/1kayxg.jpg" alt="image">
-                            </a></p>
+                        <div class="content-box">
+                            <h3>Swipebox</h3>
+                            <p><a href="images/MyPersonalImage(3).JPG" class="img-fluid" title="My Caption">
+                                    <img src="images/1kayxg.jpg" alt="image">
+                                </a></p>
+                        </div>
                     </div>
-                </div>
                 <div class="col-md-2">
                     <div class="content-box">
-                        <h3>Another Random Image</h3>
-                        <p><iframe src="//giphy.com/embed/HuXyLzDZpwfra?html5=true" width="150" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/HuXyLzDZpwfra">via GIPHY</a></p></p>
+                            <h3>Another Random Image</h3>
+                            <p><iframe src="//giphy.com/embed/HuXyLzDZpwfra?html5=true" width="150" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/HuXyLzDZpwfra">via GIPHY</a></p></p>
                     </div>
                 </div>
             </div>

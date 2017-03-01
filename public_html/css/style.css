@@ -4,6 +4,7 @@ header {
 .jumbotron {
     background-color: #9d9d9d;
 }
+
 body {
     border: 25px;
     padding-top: 50px;
@@ -22,7 +23,8 @@ footer {
     max-width: 100%;
 }
 .content-box {
-    background-color: #cccccc;
+    background-color: #eb9316;
+    border-style: groove;
     border-radius: 6px;
     padding: 10px 15px 15px;
     margin-bottom: 20px;
