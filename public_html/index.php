@@ -21,16 +21,17 @@
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
-    <!-- jQuery Form, Additional Methods, Validate -->
+    <!-- jQuery Form, Validate, Additional Methods -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js" type="text/javascript"></script>
 
     <!-- Your JavaScript Form Validator -->
     <script src="js/form-validate.js"></script>
 
     <!-- Google reCAPTCHA -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
+
 
     <!-- SwipeBox theme -->
 
