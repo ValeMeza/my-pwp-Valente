@@ -104,7 +104,7 @@
                     <div class="jumbotron">
                         <h1>Welcome</h1>
                         <p>My Name is Valente.<br>
-                            <a class="text-hide"> <img src="images/MypersonalImage(0).JPG" class="img-responsive img-rounded" id="mouse" onmouseover="mouseOver();">After becoming a Web Developer I seek to change lives with my skills. I want to teach, learn and build my way to helping Albuquerque become a bigger tech hub for the world I am a Web Developer in the greater Albuquerque area </a>
+                            <img src="images/MypersonalImage(0).JPG" class="img-responsive img-rounded" id="mouse text" onmouseover="mouseOver()" onMouseOut="hide();">
                     </div>
                 </div>
             </div>
@@ -130,30 +130,32 @@
                 <div class="col-md-8">
                     <form id="contact-form" action="php/mailer.php" method="post">
                         <div class="content-box">
-                                <div class="form-group">
-                                    <label for="name">Name</label>
-                                   <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name or Company" value="">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email</label>
-                                    <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-                                    </div>
-                                </div>
                             <div class="form-group">
-                                <label for="subject">Subject</label>
-                                <div class="input-group">
-                                    <input type="text" class="form control" id="subject" name="subject" placeholder="Subject">
+                                <label for="name">Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name or Company" value="">
                                 </div>
                             </div>
-                                <div class="form-group">
-                                    <label for="message">Message</label>
-                                    <div class="col-sm-10">
-                                        <textarea class="form-control" rows="4" name="message"></textarea>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <div class="col-sm-10">
+                                <div class="input-group">
+                                    <input type="text" class="form control" id="subject" name="subject" placeholder="Subject">
                                     </div>
                                 </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" rows="4" name="message"></textarea>
+                                </div>
+                            </div>
                         </div>
                         <div class="g-recaptcha" data-sitekey="6LeqcRcUAAAAAOrSLzMxwLso7JRGZ9JSRDQjTsMP"></div>
                         <div class="form-group">

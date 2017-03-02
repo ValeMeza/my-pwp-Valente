@@ -9,7 +9,12 @@ header {
     .text-hide();
 }
 
+.text {
+
+}
+
 body {
+    margin: auto;
     border: 25px;
     padding-top: 50px;
 
