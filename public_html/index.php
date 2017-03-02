@@ -128,34 +128,40 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <div class="content-box">
-                        <form id="contact-form" action="php/mailer.php" method="post">
+                    <form id="contact-form" action="php/mailer.php" method="post">
+                        <div class="content-box">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                   <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name or Company" value="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                                    </div>
+                                </div>
                             <div class="form-group">
-                                <label for="name" class="col-sm-2 control-label">Name</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name or Company" value="">
+                                <label for="subject">Subject</label>
+                                <div class="input-group">
+                                    <input type="text" class="form control" id="subject" name="subject" placeholder="Subject">
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <label for="email" class="col-sm-2 control-label">Email</label>
-                                <div class="col-sm-10">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" rows="4" name="message"></textarea>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="message" class="col-sm-2 control-label">Message</label>
-                                <div class="col-sm-10">
-                                    <textarea class="form-control" rows="4" name="message"></textarea>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="g-recaptcha" data-sitekey="6LeqcRcUAAAAAOrSLzMxwLso7JRGZ9JSRDQjTsMP"></div>
-                    <div class="form-group">
-                        <div class="col-sm-10 col-sm-offset-2">
-                            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
                         </div>
-                    </div>
-                </form>
+                        <div class="g-recaptcha" data-sitekey="6LeqcRcUAAAAAOrSLzMxwLso7JRGZ9JSRDQjTsMP"></div>
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                            </div>
+                        </div>
+                    </form>
                     <!--empty area for form error/success output-->
                     <div class="row">
                         <div class="col-xs-12">
