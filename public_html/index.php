@@ -18,6 +18,8 @@
     <!-- My Custom CSS vmeza3@cnm.edu -->
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
 
+    <!-- SwipeBox theme -->
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -86,8 +88,8 @@
                 <div class="col-md-12">
                     <div class="jumbotron">
                         <h1>Welcome</h1>
-                        <p>My Name is Valente.<br> .
-                            <div class="img-responsive"><a> <img src="images/MyPersonalImage(3).JPG" class="img-responsive">After becoming a Web Developer I seek to change lives with my skills. I want to teach, learn and build my way to helping Albuquerque become a bigger tech hub for the world</a></div> I am a Web Developer in the greater Albuquerque area
+                        <p>My Name is Valente.<br>
+                            <a class="text-hide"> <img src="images/MypersonalImage(0).JPG" class="img-responsive img-rounded" id="mouse" onmouseover="mouseOver();">After becoming a Web Developer I seek to change lives with my skills. I want to teach, learn and build my way to helping Albuquerque become a bigger tech hub for the world I am a Web Developer in the greater Albuquerque area </a>
                     </div>
                 </div>
             </div>
@@ -112,11 +114,37 @@
                 </div>
                 <div class="col-md-8">
                         <div class="content-box">
-                            <h3>Swipebox</h3>
-                            <p><a href="images/MyPersonalImage(3).JPG" class="img-fluid" title="My Caption">
-                                    <img src="images/1kayxg.jpg" alt="image">
-                                </a></p>
-                        </div>
+                            <form class="form-horizontal" role="form" method="post" action="index.php">
+                                <div class="form-group">
+                                    <label for="name" class="col-sm-2 control-label">Name</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name or Company" value="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 control-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message" class="col-sm-2 control-label">Message</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" rows="4" name="message"></textarea>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-10 col-sm-offset-2">
+                                        <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-10 col-sm-offset-2">
+                                        <! Will be used to display an alert to the user>
+                                    </div>
+                                </div>
+                            </form>
                     </div>
                 <div class="col-md-2">
                     <div class="content-box">
