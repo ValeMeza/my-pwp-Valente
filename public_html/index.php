@@ -20,6 +20,7 @@
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/javascript-events.js"></script>
 
     <!-- jQuery Form, Validate, Additional Methods -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
@@ -104,7 +105,7 @@
                     <div class="jumbotron">
                         <h1>Welcome</h1>
                         <p>My Name is Valente.<br>
-                            <img src="images/MypersonalImage(0).JPG" class="img-responsive img-rounded" id="mouse text" onmouseover="mouseOver()" onMouseOut="hide();">
+                            <img src="images/MypersonalImage(0).JPG" class="img-responsive img-rounded" id="mouse text" onmouseover="mouseOver();" onMouseOut="hide();">
                     </div>
                 </div>
             </div>
