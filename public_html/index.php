@@ -67,10 +67,10 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="https://github.com/ValeMeza">
-                            <span class="fa-stack">
-                                <i class="fa fa-square-o fa-stack-2x"></i>
-                                <i class="fa fa-github-alt fa-stack-1x"> </i>
-                            </span>
+                                <span class="fa-stack">
+                                    <i class="fa fa-square-o fa-stack-2x"></i>
+                                    <i class="fa fa-github-alt fa-stack-1x"> </i>
+                                </span>
                             </a>
                         </li>
                         <li><a href="https://twitter.com/V_For_Valente">
@@ -128,43 +128,45 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                        <div class="content-box">
-                            <form class="form-horizontal" role="form" method="post" action="index.php">
-                                <div class="form-group">
-                                    <label for="name" class="col-sm-2 control-label">Name</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name or Company" value="">
-                                    </div>
+                    <div class="content-box">
+                        <form id="contact-form" action="php/mailer.php" method="post">
+                            <div class="form-group">
+                                <label for="name" class="col-sm-2 control-label">Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name or Company" value="">
                                 </div>
-                                <div class="form-group">
-                                    <label for="email" class="col-sm-2 control-label">Email</label>
-                                    <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-                                    </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="col-sm-2 control-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
                                 </div>
-                                <div class="form-group">
-                                    <label for="message" class="col-sm-2 control-label">Message</label>
-                                    <div class="col-sm-10">
-                                        <textarea class="form-control" rows="4" name="message"></textarea>
-                                    </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="col-sm-2 control-label">Message</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" rows="4" name="message"></textarea>
                                 </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-sm-10 col-sm-offset-2">
-                                        <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-sm-10 col-sm-offset-2">
-                                        <! Will be used to display an alert to the user>
-                                    </div>
-                                </div>
-                            </form>
+                            </div>
                     </div>
+                    <div class="g-recaptcha" data-sitekey="6LeqcRcUAAAAAOrSLzMxwLso7JRGZ9JSRDQjTsMP"></div>
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                        </div>
+                    </div>
+                </form>
+                    <!--empty area for form error/success output-->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div id="output-area"></div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-2">
                     <div class="content-box">
-                            <h3>Another Random Image</h3>
-                            <p><iframe src="//giphy.com/embed/HuXyLzDZpwfra?html5=true" width="150" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/HuXyLzDZpwfra">via GIPHY</a></p></p>
+                        <h3>Another Random Image</h3>
+                        <p><iframe src="//giphy.com/embed/HuXyLzDZpwfra?html5=true" width="150" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/HuXyLzDZpwfra">via GIPHY</a></p></p>
                     </div>
                 </div>
             </div>
