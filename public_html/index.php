@@ -55,17 +55,17 @@
             <nav class="navbar navbar-inverse">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Vale Por ABQ.</a>
+                    <a class="navbar-brand" >Vale Por ABQ.</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="https://github.com/ValeMeza">
                                 <span class="fa-stack">
@@ -102,27 +102,28 @@
             <!--begin welcome row-->
             <div class="row">
                 <div class="col-md-12">
-                    <div class="jumbotron">
-                        <h1>Welcome</h1>
-                        <p>My Name is Valente.<br>
-                            <img src="images/MypersonalImage(0).JPG" class="img-responsive img-rounded" id="mouse text" onmouseover="mouseOver();" onMouseOut="hide();">
+                    <div class="grid">
+                        <figure class="effect-valente">
+                            <img src="images/rsz_img_0556.jpg" alt="rsz_img_0556" class="image-responsive"/>
+                            <figcaption>
+                                <h1>Vale <span>Valente</span></h1>
+                                <p>After becoming a Web Developer I seek to change lives with my skills. I want to teach, learn and build my way to helping Albuquerque become a bigger tech hub for the world I am a Web Developer in the greater Albuquerque area<br>
+                                <a href="https://twitter.com/V_For_Valente">
+                                <span class="fa-stack">
+                                    <i class="fa fa-square-o fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x"></i>
+                                </span></p>
+                            </figcaption>
+                        </figure>
+                        <!-- ... -->
                     </div>
                 </div>
             </div>
-
             <!--begin display column row-->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="content-box">
-                        <h3>The Beauty of Web Development.</h3>
-                        <p> <p>After becoming a Web Developer I seek to change lives with my skills. I want to teach, learn and build my way to helping Albuquerque become a bigger tech hub for the world.</p>
-                    </div>
-                </div>
-            </div>
 
             <!--begin contact column row-->
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-8">
                     <div class="content-box">
                         <h3>Add link to GitHub</h3>
                         <p>I'm sorry, Morty. It's a bummer. In reality you're as dumb as they come. Don't even trip about your pants, dawg. We got an extra pair right here. You're growing up fast, Morty. You're going into a great big thorn straight into my ass. I'm the Devil, what should I do when I fail? Give myself an ice cream? Aw, geez. Puh rum pum pow! Aw, c'mon Rick. That doesn't seem so bad. The fucking amish bitch shot me!</p>
@@ -146,14 +147,15 @@
                             <div class="form-group">
                                 <label for="subject">Subject</label>
                                 <div class="col-sm-10">
-                                <div class="input-group">
-                                    <input type="text" class="form control" id="subject" name="subject" placeholder="Subject">
+                                    <div class="input-group">
+                                        <input type="text" class="form control" id="subject" name="subject" placeholder="Subject">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="message">Message</label>
                                 <div class="col-sm-10">
+                                    <div class="input-group"></div>
                                     <textarea class="form-control" rows="4" name="message"></textarea>
                                 </div>
                             </div>
@@ -172,14 +174,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
-                    <div class="content-box">
-                        <h3>Another Random Image</h3>
-                        <p><iframe src="//giphy.com/embed/HuXyLzDZpwfra?html5=true" width="150" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/HuXyLzDZpwfra">via GIPHY</a></p></p>
-                    </div>
-                </div>
             </div>
-
         </div>
     </main>
 </div><!--.sfooter-content-->
