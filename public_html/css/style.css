@@ -39,6 +39,9 @@ footer {
     padding: 10px 15px 15px;
     margin-bottom: 20px;
 }
+h1 {
+    padding-left: 10px;
+}
 /***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
@@ -62,6 +65,7 @@ body { width: 100%;}
 .image-responsive {
     display: flex;
     padding: 10px;
+    align-content: center;
 }
 /********************************************
 * Flexbox Column Height Control
