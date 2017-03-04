@@ -2,7 +2,7 @@ header {
     margin-top: 20px;
 }
 .jumbotron {
-    background-color: #9d9d9d;
+    background-color: #d36100;
 }
 
 .heading {
@@ -15,13 +15,14 @@ header {
 
 body {
     margin: auto;
+    background: #a48163;
     border: 25px;
     padding-top: 50px;
 
 }
 
 footer {
-    background-color: black;
+    background-color: #c75c00;
     color: #cccccc;
     font-style: italic;
     margin-top: 40px;
