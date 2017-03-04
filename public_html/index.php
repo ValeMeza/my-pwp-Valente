@@ -126,7 +126,7 @@
                 <div class="col-md-8">
                     <div class="content-box">
                         <h3>Add link to GitHub</h3>
-                        <p>I'm sorry, Morty. It's a bummer. In reality you're as dumb as they come. Don't even trip about your pants, dawg. We got an extra pair right here. You're growing up fast, Morty. You're going into a great big thorn straight into my ass. I'm the Devil, what should I do when I fail? Give myself an ice cream? Aw, geez. Puh rum pum pow! Aw, c'mon Rick. That doesn't seem so bad. The fucking amish bitch shot me!</p>
+                        I'm sorry, Morty. It's a bummer. In reality you're as dumb as they come. Don't even trip about your pants, dawg. We got an extra pair right here. You're growing up fast, Morty. You're going into a great big thorn straight into my ass. I'm the Devil, what should I do when I fail? Give myself an ice cream? Aw, geez. Puh rum pum pow! Aw, c'mon Rick. That doesn't seem so bad. The fucking amish bitch shot me!
                     </div>
                 </div>
                 <div class="col-md-8">

@@ -112,7 +112,7 @@ figure.effect-valente figcaption::before {
     transform: translate3d(0,50%,0);
 }
 
-figure.effect-valente h2 {
+figure.effect-valente h1 {
     position: absolute;
     top: 50%;
     left: 0;
