@@ -57,6 +57,12 @@ body { width: 100%;}
 .sfooter-content {
     flex: 1 0 auto;
 }
+
+
+.image-responsive {
+    display: flex;
+    padding: 10px;
+}
 /********************************************
 * Flexbox Column Height Control
 * Equal height content boxes using Flexbox CSS
@@ -135,6 +141,7 @@ figure.effect-valente p {
     width: 100%;
     opacity: 0;
     transform: translate3d(0,10px,0);
+    color: #fff;
 }
 
 figure.effect-valente:hover h1 {
