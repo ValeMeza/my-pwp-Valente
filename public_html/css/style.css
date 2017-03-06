@@ -15,14 +15,14 @@ header {
 
 body {
     margin: auto;
-    background: #ffae6b;
-    border: 25px;
+    background: #d3d1e8;
+    border: 50px;
     padding-top: 50px;
 
 }
 
 footer {
-    background-color: #e97e25;
+    background-color: #92919f;
     color: #a48163;
     font-style: italic;
     margin-top: 40px;
@@ -33,14 +33,15 @@ footer {
     max-width: 100%;
 }
 .content-box {
+    position: relative;
     background-color: #ff9d4c;
     border-style: groove;
     border-radius: 6px;
-    padding: 10px 15px 15px;
+    padding: 10px 15px 15px ;
     margin-bottom: 20px;
 }
 h1 {
-    padding-left: 10px;
+    padding-left: 50px;
 }
 /***
 * Flexbox Sticky Footer
@@ -50,12 +51,12 @@ h1 {
 /*corrects IE min-height bug*/
 html { display: flex;}
 body { width: 100%;}
-
+/*
 .sfooter {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
+}*/
 
 .sfooter-content {
     flex: 1 0 auto;
@@ -63,9 +64,7 @@ body { width: 100%;}
 
 
 .image-responsive {
-    display: flex;
-    padding: 10px;
-    align-content: center;
+position: relative;
 }
 /********************************************
 * Flexbox Column Height Control
@@ -109,6 +108,15 @@ body { width: 100%;}
     background-color: #cccccc;
     padding: 15px;
 }
+.grid {
+    position: relative;
+    clear: both;
+    margin: 0 auto;
+    padding: 1em 0 4em;
+    max-width: 1000px;
+    list-style: none;
+    text-align: center;
+}
 
 figure.effect-valente figcaption::before {
     position: absolute;
@@ -116,9 +124,11 @@ figure.effect-valente figcaption::before {
     left: 0;
     width: 100%;
     height: 100%;
+    background: -webkit-linear-gradient(top,  rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);)
     background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
     content: '';
     opacity: 0;
+    -webkit-transform: translate3d(0,50%,0);
     transform: translate3d(0,50%,0);
 }
 
@@ -128,12 +138,15 @@ figure.effect-valente h1 {
     left: 0;
     width: 100%;
     color: #484c61;
+    -webkit-transition: -webkit-transform 0.35s, color 0.35s;
     transition: transform 0.35s, color 0.35s;
+    -webkit-transform: translate3d(0,-50%,0);
     transform: translate3d(0,-50%,0);
 }
 
 figure.effect-valente figcaption::before,
 figure.effect-valente p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
 }
 
@@ -144,17 +157,39 @@ figure.effect-valente p {
     padding: 2em;
     width: 100%;
     opacity: 0;
+    -webkit-transform: translate3d(0,10px,0);
     transform: translate3d(0,10px,0);
-    color: #fff;
+    color: white;
 }
 
 figure.effect-valente:hover h1 {
-    color: #fff;
+    color: white;
+    -webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
     transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
 }
 
 figure.effect-valente:hover figcaption::before ,
 figure.effect-valente:hover p {
     opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+}
+
+.fa-github-alt {
+    color: #fff;
+}
+.fa-linkedin {
+    color:#fff;
+}
+
+.fa-twitter {
+    color:#fff;
+}
+
+.form-group {
+
+}
+
+.container {
+color: black;
 }

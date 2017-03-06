@@ -67,28 +67,28 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="https://github.com/ValeMeza">
-                                <span class="fa-stack">
-                                    <i class="fa fa-square-o fa-stack-2x"></i>
-                                    <i class="fa fa-github-alt fa-stack-1x"> </i>
-                                </span>
-                            </a>
-                        </li>
-                        <li><a href="https://twitter.com/V_For_Valente">
-                                <span class="fa-stack">
-                                    <i class="fa fa-square-o fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/in/valente-meza-734202133/">
-                                <span class="fa-stack">
-                                    <i class="fa fa-square-o fa-stack-2x"></i>
-                                    <i class="fa fa-linkedin fa-stack-1x"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
+                        <!--        <li><a href="https://github.com/ValeMeza">
+                                        <span class="fa-stack">
+                                            <i class="fa fa-square-o fa-stack-2x"></i>
+                                            <i class="fa fa-github-alt fa-stack-1x"> </i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li><a href="https://twitter.com/V_For_Valente">
+                                        <span class="fa-stack">
+                                            <i class="fa fa-square-o fa-stack-2x"></i>
+                                            <i class="fa fa-twitter fa-stack-1x"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/valente-meza-734202133/">
+                                        <span class="fa-stack">
+                                            <i class="fa fa-square-o fa-stack-2x"></i>
+                                            <i class="fa fa-linkedin fa-stack-1x"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>-->
                 </div><!-- /.navbar-collapse -->
             </nav>
         </div>
@@ -96,20 +96,31 @@
 
     <!--begin main page content-->
     <main>
-
-        <div class="container">
-
+        <div class="image-responsive">
             <!--begin welcome row-->
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-8">
                     <div class="grid">
                         <figure class="effect-valente">
-                            <img src="images/rsz_img_0556.jpg" alt="rsz_img_0556" class="image-responsive"/>
+                            <img src="images/rsz_img_0556.jpg" alt="rsz_img_0556" />
                             <figcaption>
                                 <!-- TODO add more padding to h1 tags -->
                                 <h1>Vale <span>Valente</span></h1>
-                                <p>After becoming a Web Developer I seek to change lives with my skills. I want to teach, learn and build my way to helping Albuquerque become a bigger tech hub for the world I am a Web Developer in the greater Albuquerque area<br>
-                                <a href="https://twitter.com/V_For_Valente">
+                                <p>After becoming a Web Developer I seek to change lives with my skills. I want to teach, learn and build my way to helping Albuquerque become a bigger tech hub for the world.<br>
+                                    I am a Web Developer in the greater Albuquerque area.<br>
+                                    <a href="https://github.com/ValeMeza">
+                                <span class="fa-stack">
+                                    <i class="fa fa-square-o fa-stack-2x"></i>
+                                    <i class="fa fa-github-alt fa-stack-1x"> </i>
+                                </span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/valente-meza-734202133/">
+                                <span class="fa-stack">
+                                    <i class="fa fa-square-o fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x"></i>
+                                </span>
+                                    </a>
+                                    <a href="https://twitter.com/V_For_Valente">
                                 <span class="fa-stack">
                                     <i class="fa fa-square-o fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x"></i>
@@ -124,30 +135,31 @@
 
             <!--begin contact column row-->
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-10">
                     <div class="content-box">
-                        <h3>Add link to GitHub</h3>
-                        I'm sorry, Morty. It's a bummer. In reality you're as dumb as they come. Don't even trip about your pants, dawg. We got an extra pair right here. You're growing up fast, Morty. You're going into a great big thorn straight into my ass. I'm the Devil, what should I do when I fail? Give myself an ice cream? Aw, geez. Puh rum pum pow! Aw, c'mon Rick. That doesn't seem so bad. The fucking amish bitch shot me!
+                        <h3></h3>
+                    I'm sorry, Morty. It's a bummer. In reality you're as dumb as they come. Don't even trip about your pants, dawg. We got an extra pair right here. You're growing up fast, Morty. You're going into a great big thorn straight into my ass. I'm the Devil, what should I do when I fail? Give myself an ice cream? Aw, geez. Puh rum pum pow! Aw, c'mon Rick. That doesn't seem so bad. The fucking amish bitch shot me!
                     </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-4">
+                    <h3>Let's get to work.</h3>
                     <form id="contact-form" action="php/mailer.php" method="post">
                         <div class="content-box">
                             <div class="form-group">
                                 <label for="name">Name</label>
-                                <div class="col-sm-10">
+                                <div class="col-m-10">
                                     <input type="text" class="form-control" id="name" name="name" placeholder="Name or Company" value="">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <div class="col-sm-10">
+                                <div class="col-m-10">
                                     <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="subject">Subject</label>
-                                <div class="col-sm-10">
+                                <div class="col-m-10">
                                     <div class="input-group">
                                         <input type="text" class="form control" id="subject" name="subject" placeholder="Subject">
                                     </div>
@@ -155,7 +167,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="message">Message</label>
-                                <div class="col-sm-10">
+                                <div class="col-m-10">
                                     <div class="input-group"></div>
                                     <textarea class="form-control" rows="4" name="message"></textarea>
                                 </div>
@@ -163,7 +175,7 @@
                         </div>
                         <div class="g-recaptcha" data-sitekey="6LeqcRcUAAAAAOrSLzMxwLso7JRGZ9JSRDQjTsMP"></div>
                         <div class="form-group">
-                            <div class="col-sm-10 col-sm-offset-2">
+                            <div class="col-m-10 col-m-offset-2">
                                 <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
                             </div>
                         </div>
