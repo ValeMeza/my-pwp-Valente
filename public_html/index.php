@@ -33,6 +33,9 @@
     <!-- Google reCAPTCHA -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+
 
     <!-- SwipeBox theme -->
 
@@ -55,88 +58,90 @@
             <nav class="navbar navbar-inverse">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
- <!--                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>-->
+                    <!--                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                                           <span class="sr-only">Toggle navigation</span>
+                                           <span class="icon-bar"></span>
+                                           <span class="icon-bar"></span>
+                                           <span class="icon-bar"></span>
+                                       </button>-->
                     <a class="navbar-brand" >Vale Por ABQ.</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-       <!--         <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">-->
-                        <!--        <li><a href="https://github.com/ValeMeza">
-                                        <span class="fa-stack">
-                                            <i class="fa fa-square-o fa-stack-2x"></i>
-                                            <i class="fa fa-github-alt fa-stack-1x"> </i>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li><a href="https://twitter.com/V_For_Valente">
-                                        <span class="fa-stack">
-                                            <i class="fa fa-square-o fa-stack-2x"></i>
-                                            <i class="fa fa-twitter fa-stack-1x"></i>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.linkedin.com/in/valente-meza-734202133/">
-                                        <span class="fa-stack">
-                                            <i class="fa fa-square-o fa-stack-2x"></i>
-                                            <i class="fa fa-linkedin fa-stack-1x"></i>
-                                        </span>
-                                    </a>
-                                </li>
-                            </ul>-->
-                </div><!-- /.navbar-collapse -->
-         <!--   </nav>-->
-        </div>
-    </header>
+                <!--         <div class="collapse navbar-collapse" id="navbar-collapse">
+                             <ul class="nav navbar-nav navbar-right">-->
+                <!--        <li><a href="https://github.com/ValeMeza">
+                                <span class="fa-stack">
+                                    <i class="fa fa-square-o fa-stack-2x"></i>
+                                    <i class="fa fa-github-alt fa-stack-1x"> </i>
+                                </span>
+                            </a>
+                        </li>
+                        <li><a href="https://twitter.com/V_For_Valente">
+                                <span class="fa-stack">
+                                    <i class="fa fa-square-o fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/valente-meza-734202133/">
+                                <span class="fa-stack">
+                                    <i class="fa fa-square-o fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>-->
+        </div><!-- /.navbar-collapse -->
+        <!--   </nav>-->
+</div>
+</header>
 
-    <!--begin main page content-->
-    <main>
-        <!--begin welcome row-->
-   <!--     <div class="row">
-            <div class="col-md-8">-->
-                <div class="grid">
-                    <figure class="effect-valente">
-                        <div class="image-responsive">
-                            <img src="images/rsz_img_0556.jpg" alt="rsz_img_0556" />
-                        </div>
-                        <figcaption>
-                            <!-- TODO add more padding to h1 tags -->
-                            <h1>Vale <span>Valente</span></h1>
-                            <p>After becoming a Web Developer I seek to change lives with my skills. I want to teach, learn and build my way to helping Albuquerque become a bigger tech hub for the world.<br>
-                                I am a Web Developer in the greater Albuquerque area.<br>
-                                <a href="https://github.com/ValeMeza">
+<!--begin main page content-->
+<main>
+    <!--begin welcome row-->
+    <!--     <div class="row">
+             <div class="col-md-8">-->
+    <div class="grid">
+        <figure class="effect-valente">
+            <div class="image-responsive">
+                <img src="images/rsz_img_0556.jpg" alt="rsz_img_0556" />
+            </div>
+            <figcaption>
+                <!-- TODO add more padding to h1 tags -->
+                <h1>Vale <span>Valente</span></h1>
+                <p><b>After becoming a Web Developer I seek to change lives with my skills. I want to teach, learn and build my way to helping Albuquerque become a bigger tech hub for the world.<br>
+                        I am a Web Developer in the greater Albuquerque area.<br></b>
+                    <a href="https://github.com/ValeMeza">
                                     <span class="fa fa-github-alt">
                                   <!--  <span class="fa-stack">
                                     <i class="fa fa-square-o fa-stack-2x"></i>
                                     <i class="fa fa-github-alt fa-stack-1x"> </i>-->
                                 </span>
-                                </a>
-                                <a href="https://www.linkedin.com/in/valente-meza-734202133/">
+                    </a>
+                    <a href="https://www.linkedin.com/in/valente-meza-734202133/">
                                     <span class="fa fa-linkedin">
                                 <!--<span class="fa-stack">
                                     <i class="fa fa-square-o fa-stack-2x"></i>
                                     <i class="fa fa-linkedin fa-stack-1x"></i>-->
                                 </span>
-                                </a>
-                                <a href="https://twitter.com/V_For_Valente">
+                    </a>
+                    <a href="https://twitter.com/V_For_Valente">
                                     <span class="fa fa-twitter">
                                <!-- <span class="fa-stack">
                                     <i class="fa fa-square-o fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x"></i>-->
-                                </span></p>
-                        </figcaption>
-                    </figure>
-                    <!-- ... -->
-                </div>
-  <!--          </div>
-        </div>
-        </div>-->
-    </main>
+                                    </span>
+                    </a>
+                </p>
+            </figcaption>
+        </figure>
+        <!-- ... -->
+    </div>
+    <!--          </div>
+          </div>
+          </div>-->
+</main>
 <!--begin display column row-->
 
 <!--begin contact column row-->
@@ -144,9 +149,17 @@
 <div class="row">
     <div class="col-md-8">
         <div class="content-box">
-
-           Currently going to be attending Meet up events across Albuquerque. Feel free to contact me or just meet me.
-            <!-- list of events ill be attending for the month-->
+            <h3>Currently going to be attending Meet up events across Albuquerque. Feel free to contact me.</h3>
+            <div class="col-m-8">
+                <table class="table table-striped"><thead><tr><th>Event</th><th>Date</th><th>Location</th></tr></thead>
+                    <tbody>
+                    <!--TODO add more stuff to your list -->
+                    <tr><td>Demo-Day</td><td>March 14 2017</td><td>FatPipe ABQ, 200 Broadway.</td></tr>
+                    <tr><td>Code for ABQ</td><td>Mar 25 2017</td><td>FatPipe ABQ, 200 Broadway.</td></tr>
+                    </tbody>
+                </table>
+                <!-- list of events ill be attending for the month-->
+            </div>
         </div>
     </div>
     <div class="col-md-4">
