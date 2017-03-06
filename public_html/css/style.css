@@ -12,6 +12,10 @@ header {
 .text {
 
 }
+img {
+    height: auto;
+    max-width: 100%;
+}
 
 body {
     margin: auto;
@@ -20,6 +24,15 @@ body {
     padding-top: 50px;
 
 }
+.row {
+    position: static;
+
+}
+/*main {
+    margin: auto;
+    border: 50px;
+    padding: 100px;
+}*/
 
 footer {
     background-color: #92919f;
@@ -41,7 +54,11 @@ footer {
     margin-bottom: 20px;
 }
 h1 {
-    padding-left: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+h3 {
+    padding-left: 20px;
 }
 /***
 * Flexbox Sticky Footer
@@ -119,7 +136,7 @@ position: relative;
 }
 
 figure.effect-valente figcaption::before {
-    position: absolute;
+    position: static;
     top: 0;
     left: 0;
     width: 100%;
