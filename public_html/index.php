@@ -121,8 +121,8 @@
                 <div class="row">
                     <table class="table table-striped"><thead><tr><th>Event</th><th>Date</th><th>Location</th></tr></thead>
                         <tbody>
-                        <tr><td>Demo-Day</td><td>March 14 2017</td><td>FatPipe ABQ, 200 Broadway.</td></tr>
-                        <tr><td>Code for ABQ</td><td>Mar 25 2017</td><td>FatPipe ABQ, 200 Broadway.</td></tr>
+                        <tr><td>Demo-Day</td><td>03/14/2017</td><td>FatPipe ABQ, 200 Broadway.</td></tr>
+                        <tr><td>Code for ABQ</td><td>03/25/2017</td><td>FatPipe ABQ, 200 Broadway.</td></tr>
                         </tbody>
                     </table>
                     <!-- list of events ill be attending for the month-->
