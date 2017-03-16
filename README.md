@@ -44,3 +44,17 @@ Good job on your content strategy! I really like the plan you have for your site
 
 ## Milestone 2&beta; Feedback
 You're about 30% done. You can get to 85-90% with a solid plan and 3-4 very focused hours. Detailed notes on our meeting left via Slack. Your Milestone 2b passes at Tier III.
+
+## Milestone 3 / Final Feedback
+I hope this PWP has given you some good experience in front-end web development. There's a lot of room for growth here - so keep working on it. The hover effect on your main image is a really nice touch - good work on this. 
+
+Unfortunately the contact form isn't working. See Suggestions below, and come talk with me if you want some help debugging. 
+
+Design wise, I would consider adding a bit more contrast. Try changing the background color to white to see what I mean. Strong visual impact can be achieved simply through a good color choice, a good font choice (sparingly used), and sufficient contrast.
+
+Your Final PWP passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+### Suggestions
+- Ouch! Your contact form doesn't work! I'm seeing a 500 error in the console on submit. This could be caused by several things.... Composer packages not installed, mailer files not uploaded, path to mailer.php incorrect, etc. See me and I can help you troubleshoot this.
+- Consider using a lighter font color on the darker background so the text is easier to read.
+- Check the Bootstrap form classes on the "Subject" input field on your contact form. Fix these and it should match the other fields. 
