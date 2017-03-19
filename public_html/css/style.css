@@ -112,6 +112,8 @@ figure.effect-valente p {
     -webkit-transform: translate3d(0,10px,0);
     transform: translate3d(0,10px,0);
     color: white;
+    text-shadow: 2px 2px #0f0f0f;
+    font-size: 25px;
 }
 
 figure.effect-valente:hover h1 {
@@ -119,6 +121,7 @@ figure.effect-valente:hover h1 {
     -webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
     transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
     padding-bottom: 50px;
+    text-shadow: 2px 2px #0f0f0f;
 }
 
 figure.effect-valente:hover figcaption::before ,
@@ -138,5 +141,10 @@ figure.effect-valente:hover p {
 td {
     letter-spacing: 1px;
     font-family: 'Ropa Sans', sans-serif;
+}
+
+.btn {
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
